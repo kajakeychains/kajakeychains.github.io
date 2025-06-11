@@ -1,0 +1,20 @@
+{
+    "keychain_gojo_cat_1": {
+        "name": "Gojo Cat 1",
+        "price": 3,
+        "franchise": "jujutsu-kaisen",
+        "stock": 1
+    },
+    "keychain_dandadan_momo": {
+        "name": "Dandadan Momo",
+        "price": 2,
+        "franchise": "dandadan",
+        "stock": 2
+    },
+    "keychain_minecraft_totem": {
+        "name": "Totem of Undying",
+        "price": 2.50,
+        "franchise": "minecraft",
+        "stock": 2
+    }
+}
