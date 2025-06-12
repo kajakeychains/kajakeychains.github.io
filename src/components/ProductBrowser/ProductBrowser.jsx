@@ -6,7 +6,7 @@ import './product-browser.css'
 
 function ProductBrowser() {
     const [keychains, setKeychains] = useState({});
-    const [currentFilter, setFilter] = useState("");
+    const [currentFilter, setFilter] = useState("all");
 
     useEffect(() => {
         let jsonAddr = './product-information.json'
@@ -25,7 +25,7 @@ function ProductBrowser() {
             <ProductFilters onSelect={handleFilterButtons} />
             <div className="product-browser">
                 {Object.entries(keychains).map(([id, item]) => {
-                    if (item.franchise === currentFilter || currentFilter === "") {
+                    if (item.franchise === currentFilter || currentFilter === "all") {
                         return (
                             <ProductCard
                                 key={id}
