@@ -1,0 +1,24 @@
+@use '../../styles/mixins.scss';
+
+header {
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.bottom-line {
+    margin-left: -30%;
+    width: 160%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #cccccc, transparent);
+}
+
+.about-container {
+    .about-section {
+        font-size: 1em;
+        width: 50%;
+        padding: 10px;
+    }
+}
