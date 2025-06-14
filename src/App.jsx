@@ -1,4 +1,5 @@
-import './App.css'
+import './styles/App.scss'
+
 import ProductBrowser from './components/ProductBrowser/ProductBrowser'
 
 function App() {

@@ -1,0 +1,27 @@
+@use '../../styles/mixins.scss';
+
+.product-card {
+    @include mixins.field;
+
+    width: 150px;
+    height: 200px;
+    position: relative;
+
+    transition: .2s all ease-in-out;
+
+    .image-container {
+        height: 50%;
+        width: 100%;
+
+        img {
+            padding: 5px;
+            width: 90%;
+            height: auto;
+        }
+    }
+
+    .text-container {
+        height: 50%;
+        width: 100%;
+    }
+}

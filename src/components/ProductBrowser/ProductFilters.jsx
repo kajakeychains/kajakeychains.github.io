@@ -1,4 +1,4 @@
-import './product-browser.css'
+import './product-browser.scss'
 
 function ProductFilters({ onSelect }) {
     let currentFilter = "all"

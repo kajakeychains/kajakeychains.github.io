@@ -1,10 +1,10 @@
-import './product-card.css'
+import './product-card.scss'
 
 function ProductCard(props) {
     return (
         <div className='product-card'>
             <div className='image-container'>
-                <img src='./keychain-images/placeholder.png' className='image' />
+                <img src='./keychain-images/placeholder.png'/>
             </div>
             <div className='text-container'>
                 <p>{props.name}</p>

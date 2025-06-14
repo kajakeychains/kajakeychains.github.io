@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import ProductCard from "../ProductCard/ProductCard";
 import ProductFilters from "./ProductFilters";
-import './product-browser.css'
+import './product-browser.scss'
 
 function ProductBrowser() {
     const [keychains, setKeychains] = useState({});
