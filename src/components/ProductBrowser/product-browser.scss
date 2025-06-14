@@ -16,11 +16,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     gap: 10px;
     padding-bottom: 10px;
 
     button {
         @include mixins.field;
+        color: black;
+    }
+
+    .selected {
+        background: #cccccc;
     }
 }

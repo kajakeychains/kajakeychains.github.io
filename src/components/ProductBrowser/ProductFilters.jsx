@@ -1,27 +1,34 @@
-import './product-browser.scss'
+import { useState } from 'react';
+import './product-browser.scss';
 
 function ProductFilters({ onSelect }) {
-    let currentFilter = "all"
+    const [filter, setFilter] = useState('all');
 
-    function setFilter(filter) {
-        onSelect(filter)
-        currentFilter = filter
+    const buttons = [
+        { label: 'All', value: 'all' },
+        { label: 'Genshit', value: 'genshin' },
+        { label: 'Dandadan', value: 'dandadan' },
+        { label: 'Jujutsu Kaisen', value: 'jujutsu-kaisen' },
+        { label: 'Minecraft', value: 'minecraft' },
+        { label: 'Mario', value: 'mario' },
+    ];
 
-        let buttonCon = document.querySelector('.button-container')
-        for (let i = 0; i < buttonCon.children.length; i++) {
-            const e = buttonCon.children[i];
-            e.classList.remove('selected')
-        }
-        document.querySelector(`.${currentFilter}`).classList.add('selected')
+    function handleFilterChange(value) {
+        setFilter(value);
+        onSelect(value);
     }
 
     return (
-        <div className='button-container'>
-            <button className='all' onClick={() => setFilter("all")}>All</button>
-            <button className='genshin' onClick={() => setFilter("genshin")}>Genshit</button>
-            <button className='dandadan' onClick={() => setFilter("dandadan")}>Dandadan</button>
-            <button className='minecraft' onClick={() => setFilter("minecraft")}>Minecraft</button>
-            <button className='mario' onClick={() => setFilter("mario")}>Mario</button>
+        <div className="button-container">
+            {buttons.map(({ label, value }) => (
+                <button
+                    key={value}
+                    className={`${value} ${filter === value ? 'selected' : ''}`}
+                    onClick={() => handleFilterChange(value)}
+                >
+                    {label}
+                </button>
+            ))}
         </div>
     );
 }
