@@ -1,8 +1,6 @@
 import './header.scss'
 
 function Header() {
-
-
     return (
         <header>
             <h1>KAJA Keychains</h1>

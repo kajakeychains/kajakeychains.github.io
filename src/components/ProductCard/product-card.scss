@@ -22,20 +22,32 @@
 
         overflow: hidden;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-center;
         vertical-align: bottom;
         justify-content: center;
         height: 50%;
         width: 100%;
 
-        img {
-            padding: 5px;
-            height: auto;
+        .inner-container {
+            justify-self: center;
+            height: 100%;
             width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            border: solid 5px #cccccc;
+
+            img {
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+                margin-bottom: 5px;
+            }
         }
     }
 
     .text-container {
+        border-top: #cccccc 5px solid;
         height: 50%;
         width: 100%;
     }

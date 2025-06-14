@@ -1,16 +1,24 @@
+import { useState } from 'react';
 import './product-card.scss'
 
 function ProductCard(props) {
-    let imageDir = `./keychain-images/${props.id}.webp`
+    const [imgSrc, setImgSrc] = useState(`./keychain-images/${props.id}.webp`);
+    const [attemptedWebp, setAttemptedWebp] = useState(false);
+
+    const handleImageError = () => {
+        if (!attemptedWebp) {
+            setImgSrc(`./keychain-images/${props.id}.png`);
+            setAttemptedWebp(true);
+        } else {
+            setImgSrc(`./keychain-images/placeholder.png`);
+        }
+    };
 
     return (
         <div className='product-card'>
             <div className='image-container'>
                 <div className='inner-container'>
-                    <img src={imageDir} onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = './keychain-images/placeholder.png'
-                    }} />
+                    <img src={imgSrc} onError={handleImageError} alt={props.name} />
                 </div>
             </div>
             <div className='text-container'>
