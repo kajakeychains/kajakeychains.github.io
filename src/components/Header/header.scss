@@ -1,7 +1,7 @@
 @use '../../styles/mixins.scss';
 
 header {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -16,9 +16,28 @@ h1 {
 }
 
 .about-container {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+
     .about-section {
         font-size: 1em;
-        width: 50%;
+        width: 35%;
         padding: 10px;
+    }
+
+    .gojo-image {
+        height: 240px;
+        filter: brightness(130%);
+    }
+
+    ul {
+        font-size: 1.1em;
+        text-align: left;
+
+        li {
+            padding-bottom: 7px;
+        }
     }
 }

@@ -29,6 +29,7 @@ function ProductBrowser() {
                         return (
                             <ProductCard
                                 key={id}
+                                id={id}
                                 name={item.name}
                                 price={item.price}
                                 franchise={item.franchise}
