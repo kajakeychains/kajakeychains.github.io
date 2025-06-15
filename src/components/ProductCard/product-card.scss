@@ -5,7 +5,7 @@
 
     padding: 0px;
     width: 150px;
-    height: 220px;
+    height: 200px;
     position: relative;
     overflow: hidden;
 
@@ -13,6 +13,9 @@
 
     h4 {
         line-height: 1em;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 10px;
     }
 
     .image-container {
@@ -25,7 +28,7 @@
         align-items: flex-center;
         vertical-align: bottom;
         justify-content: center;
-        height: 50%;
+        height: 60%;
         width: 100%;
 
         .inner-container {
@@ -48,7 +51,12 @@
 
     .text-container {
         border-top: #cccccc 5px solid;
-        height: 50%;
+        height: 40%;
         width: 100%;
+
+        p {
+            color: rgb(0, 191, 0);
+            margin: 0px;
+        }
     }
 }
