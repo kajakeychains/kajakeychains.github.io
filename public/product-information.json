@@ -232,5 +232,77 @@
         "price": 3,
         "franchise": "jujutsu-kaisen",
         "stock": 1
+    },
+    "keychain_genshin_navia": {
+        "name": "Navia",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_lynette": {
+        "name": "Lynette",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_clorinde": {
+        "name": "Clorinde",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_neuvillette": {
+        "name": "Neuvillette",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_character": {
+        "name": "Genshin Character",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_charlotte": {
+        "name": "Charlotte",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_sigewinne": {
+        "name": "Sigewinne",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_wriothesley": {
+        "name": "Wriothesley",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_freminet": {
+        "name": "Freminet",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_furina": {
+        "name": "Furina",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_lyney": {
+        "name": "Lyney",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
+    },
+    "keychain_genshin_arlecchino": {
+        "name": "Arlecchino",
+        "price": 2,
+        "franchise": "genshin",
+        "stock": 2
     }
 }

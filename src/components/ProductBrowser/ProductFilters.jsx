@@ -6,7 +6,7 @@ function ProductFilters({ onSelect }) {
 
     const buttons = [
         { label: 'All', value: 'all' },
-        { label: 'Genshit', value: 'genshin' },
+        { label: 'Genshin', value: 'genshin' },
         { label: 'Dandadan', value: 'dandadan' },
         { label: 'Jujutsu Kaisen', value: 'jujutsu-kaisen' },
         { label: 'Minecraft', value: 'minecraft' },
