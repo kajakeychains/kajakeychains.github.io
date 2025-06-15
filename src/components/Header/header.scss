@@ -41,3 +41,13 @@ h1 {
         }
     }
 }
+
+@media (max-width: 350px) {
+    .about-container {
+        flex-direction: column;
+
+        .about-section {
+            width: 100%;
+        }
+    }
+}

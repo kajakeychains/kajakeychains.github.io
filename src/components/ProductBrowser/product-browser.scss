@@ -31,3 +31,10 @@
         background: #cccccc;
     }
 }
+
+@media (max-width: 350px) {
+    .product-browser {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
