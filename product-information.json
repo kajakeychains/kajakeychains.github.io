@@ -256,17 +256,17 @@
             "stock": 2
         },
         "card_jujutsu_kaisen": {
-            "name": "Assorted Jujutsu Kaisen Cards",
+            "name": "Jujutsu Kaisen Cards",
             "franchise": "card",
             "stock": 30
         },
         "card_genshin": {
-            "name": "Assorted Genshin Cards",
+            "name": "Genshin Cards",
             "franchise": "card",
             "stock": 30
         },
         "card_haikyuu": {
-            "name": "Assorted Haikyuu Cards",
+            "name": "Haikyuu Cards",
             "franchise": "card",
             "stock": 30
         }
