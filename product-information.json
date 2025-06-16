@@ -1,308 +1,266 @@
 {
-    "keychain_minecraft_golden_apple": {
-        "name": "Golden Apple",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
+    "data": {
+        "keychain_minecraft_golden_apple": {
+            "name": "Golden Apple",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_eye_of_ender": {
+            "name": "Eye of Ender",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_emerald": {
+            "name": "Emerald",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_enchanted_golden_apple": {
+            "name": "Enchanted Golden Apple",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_carrot": {
+            "name": "Carrot",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_nether_star": {
+            "name": "Nether Star",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_glistering_melon": {
+            "name": "Glistering Melon",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_dragons_breath": {
+            "name": "Dragons Breath",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_totem_of_undying": {
+            "name": "Totem of Undying",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_diamond": {
+            "name": "Diamond",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_enchanted_book": {
+            "name": "Enchanted Book",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_minecraft_golden_carrot": {
+            "name": "Golden Carrot",
+            "franchise": "minecraft",
+            "stock": 1
+        },
+        "keychain_mario_mario": {
+            "name": "Mario",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_toadette": {
+            "name": "Toadette",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_star": {
+            "name": "Star",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_luigi": {
+            "name": "Luigi",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_block": {
+            "name": "Mario Block",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_yoshi": {
+            "name": "Yoshi",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_piranha_plant": {
+            "name": "Piranha Plant",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_mario_mushroom": {
+            "name": "Mushroom",
+            "franchise": "mario",
+            "stock": 2
+        },
+        "keychain_dandadan_okarun": {
+            "name": "Okarun",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_jin": {
+            "name": "Jin",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_turbo_granny": {
+            "name": "Turbo Granny",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_alien_serpo": {
+            "name": "Alien Serpo",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_momo": {
+            "name": "Momo",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_okarun_2": {
+            "name": "Okarun 2",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_granny": {
+            "name": "Granny",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_aira": {
+            "name": "Aira",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_okarun_3": {
+            "name": "Okarun 3",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_granny_2": {
+            "name": "Granny 2",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_turbo_granny_2": {
+            "name": "Turbo Granny 2",
+            "franchise": "dandadan",
+            "stock": 1
+        },
+        "keychain_dandadan_aira_2": {
+            "name": "Aira 2",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_momo_2": {
+            "name": "Momo",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_dandadan_okarun_4": {
+            "name": "Okarun 4",
+            "franchise": "dandadan",
+            "stock": 2
+        },
+        "keychain_jujutsu_kaisen_gojo_cat_1": {
+            "name": "Gojo Cat 1",
+            "franchise": "jujutsu-kaisen",
+            "stock": 1
+        },
+        "keychain_jujutsu_kaisen_gojo_cat_2": {
+            "name": "Gojo Cat 2",
+            "franchise": "jujutsu-kaisen",
+            "stock": 1
+        },
+        "keychain_jujutsu_kaisen_gojo_cat_3": {
+            "name": "Gojo Cat 3",
+            "franchise": "jujutsu-kaisen",
+            "stock": 1
+        },
+        "keychain_jujutsu_kaisen_gojo_cat_4": {
+            "name": "Gojo Cat 4",
+            "franchise": "jujutsu-kaisen",
+            "stock": 1
+        },
+        "keychain_jujutsu_kaisen_geto_cat_1": {
+            "name": "Geto Cat 1",
+            "franchise": "jujutsu-kaisen",
+            "stock": 1
+        },
+        "keychain_genshin_navia": {
+            "name": "Navia",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_lynette": {
+            "name": "Lynette",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_clorinde": {
+            "name": "Clorinde",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_neuvillette": {
+            "name": "Neuvillette",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_character": {
+            "name": "Dottore",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_charlotte": {
+            "name": "Charlotte",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_sigewinne": {
+            "name": "Sigewinne",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_wriothesley": {
+            "name": "Wriothesley",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_freminet": {
+            "name": "Freminet",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_furina": {
+            "name": "Furina",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_lyney": {
+            "name": "Lyney",
+            "franchise": "genshin",
+            "stock": 2
+        },
+        "keychain_genshin_arlecchino": {
+            "name": "Arlecchino",
+            "franchise": "genshin",
+            "stock": 2
+        }
     },
-    "keychain_minecraft_eye_of_ender": {
-        "name": "Eye of Ender",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_emerald": {
-        "name": "Emerald",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_enchanted_golden_apple": {
-        "name": "Enchanted Golden Apple",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_carrot": {
-        "name": "Carrot",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_nether_star": {
-        "name": "Nether Star",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_glistering_melon": {
-        "name": "Glistering Melon",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_dragons_breath": {
-        "name": "Dragons Breath",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_totem_of_undying": {
-        "name": "Totem of Undying",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_diamond": {
-        "name": "Diamond",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_enchanted_book": {
-        "name": "Enchanted Book",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_minecraft_golden_carrot": {
-        "name": "Golden Carrot",
-        "price": 2.50,
-        "franchise": "minecraft",
-        "stock": 1
-    },
-    "keychain_mario_mario": {
-        "name": "Mario",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_toadette": {
-        "name": "Toadette",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_star": {
-        "name": "Star",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_luigi": {
-        "name": "Luigi",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_block": {
-        "name": "Mario Block",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_yoshi": {
-        "name": "Yoshi",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_piranha_plant": {
-        "name": "Piranha Plant",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_mario_mushroom": {
-        "name": "Mushroom",
-        "price": 2.50,
-        "franchise": "mario",
-        "stock": 2
-    },
-    "keychain_dandadan_okarun": {
-        "name": "Okarun",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_jin": {
-        "name": "Jin",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_turbo_granny": {
-        "name": "Turbo Granny",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_alien_serpo": {
-        "name": "Alien Serpo",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_momo": {
-        "name": "Momo",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_okarun_2": {
-        "name": "Okarun 2",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_granny": {
-        "name": "Granny",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_aira": {
-        "name": "Aira",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_okarun_3": {
-        "name": "Okarun 3",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_granny_2": {
-        "name": "Granny 2",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_turbo_granny_2": {
-        "name": "Turbo Granny 2",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 1
-    },
-    "keychain_dandadan_aira_2": {
-        "name": "Aira 2",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_momo_2": {
-        "name": "Momo",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_dandadan_okarun_4": {
-        "name": "Okarun 4",
-        "price": 2,
-        "franchise": "dandadan",
-        "stock": 2
-    },
-    "keychain_jujutsu_kaisen_gojo_cat_1": {
-        "name": "Gojo Cat 1",
-        "price": 3,
-        "franchise": "jujutsu-kaisen",
-        "stock": 1
-    },
-    "keychain_jujutsu_kaisen_gojo_cat_2": {
-        "name": "Gojo Cat 2",
-        "price": 3,
-        "franchise": "jujutsu-kaisen",
-        "stock": 1
-    },
-    "keychain_jujutsu_kaisen_gojo_cat_3": {
-        "name": "Gojo Cat 3",
-        "price": 3,
-        "franchise": "jujutsu-kaisen",
-        "stock": 1
-    },
-    "keychain_jujutsu_kaisen_gojo_cat_4": {
-        "name": "Gojo Cat 4",
-        "price": 3,
-        "franchise": "jujutsu-kaisen",
-        "stock": 1
-    },
-    "keychain_jujutsu_kaisen_geto_cat_1": {
-        "name": "Geto Cat 1",
-        "price": 3,
-        "franchise": "jujutsu-kaisen",
-        "stock": 1
-    },
-    "keychain_genshin_navia": {
-        "name": "Navia",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_lynette": {
-        "name": "Lynette",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_clorinde": {
-        "name": "Clorinde",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_neuvillette": {
-        "name": "Neuvillette",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_character": {
-        "name": "Dottore",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_charlotte": {
-        "name": "Charlotte",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_sigewinne": {
-        "name": "Sigewinne",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_wriothesley": {
-        "name": "Wriothesley",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_freminet": {
-        "name": "Freminet",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_furina": {
-        "name": "Furina",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_lyney": {
-        "name": "Lyney",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
-    },
-    "keychain_genshin_arlecchino": {
-        "name": "Arlecchino",
-        "price": 2.50,
-        "franchise": "genshin",
-        "stock": 2
+    "prices": {
+        "minecraft": 2.50,
+        "mario": 2.50,
+        "genshin": 3,
+        "dandadan": 2,
+        "jujutsu-kaisen": 3
     }
 }
