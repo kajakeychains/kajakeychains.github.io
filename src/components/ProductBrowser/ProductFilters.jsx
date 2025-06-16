@@ -11,6 +11,7 @@ function ProductFilters({ onSelect }) {
         { label: 'Jujutsu Kaisen', value: 'jujutsu-kaisen' },
         { label: 'Minecraft', value: 'minecraft' },
         { label: 'Mario', value: 'mario' },
+        { label: 'Cards', value: 'card'}
     ];
 
     function handleFilterChange(value) {
