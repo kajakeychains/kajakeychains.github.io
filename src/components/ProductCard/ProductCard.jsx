@@ -22,7 +22,7 @@ function ProductCard(props) {
                 </div>
             </div>
             <div className='text-container'>
-                <h4>{props.name} {props.franchise === "card" ? " x30" : ""}</h4>
+                <h4>{props.name} {props.franchise === "card" ? " x10" : ""}</h4>
                 <p>{
                     new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
                         props.price,
